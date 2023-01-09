@@ -1,0 +1,53 @@
+body {
+  background-color: #eef1dd  ;
+}
+
+.a {
+  background-color: #0bc0f7ec ;
+}
+
+.n {
+  background-color: #eff783;
+}
+.homep {
+  background-color: #EAAC8B ;
+}
+
+.poscent {
+  
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+  margin-top: auto; 
+  margin-bottom: auto; 
+  width: 23%;
+  height: 33%;
+
+}
+
+body {
+  background-image: url('./Signinpage/Components/Background/image.jpg');
+  background-size: cover;
+  background-image: url(./Taskpage/Leftside/bcg.svg)
+
+}
+
+.cont1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.inpt {
+  grid-row-start: 2;
+   grid-row-end: 4;
+      grid-column-start: 1;
+
+   grid-column-end: 3;
+   
+}
+
+textarea {
+  resize: none;
+}

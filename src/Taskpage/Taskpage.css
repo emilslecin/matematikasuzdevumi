@@ -1,0 +1,24 @@
+body {
+  background-color: #D0F6CA;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 7fr 3fr;
+  gap: 20px;
+  background-image: url(./Leftside/bcg.svg)
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns:1fr;
+}
+.dd{
+  background-color: #81f0ff;
+}
+
+.aa{
+  background-color: rgba(234, 236, 74, 0.637);
+}
+
+
